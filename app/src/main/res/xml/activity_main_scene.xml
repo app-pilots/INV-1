@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:layout_height="134dp"
+            android:layout_marginBottom="56dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="116dp"
+            android:id="@+id/imageView"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="88dp"
+            android:layout_marginStart="88dp" />
+        <Constraint
+            android:layout_height="150dp"
+            motion:layout_editor_absoluteX="394dp"
+            android:layout_width="262dp"
+            android:id="@+id/imageView2"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="48dp" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:layout_height="168dp"
+            android:layout_width="142dp"
+            android:id="@+id/imageView2"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="260dp"
+            android:layout_marginRight="260dp"
+            android:layout_marginBottom="276dp" />
+        <Constraint
+            android:layout_marginEnd="240dp"
+            android:layout_height="134dp"
+            android:layout_marginRight="240dp"
+            android:layout_marginBottom="648dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="116dp"
+            android:id="@+id/imageView" />
+    </ConstraintSet>
+</MotionScene>
