@@ -6,12 +6,13 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".Camaras">
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="345dp"
         android:layout_height="420dp"
+        android:contentDescription="video"
         android:onClick="TomarVideo"
         app:srcCompat="@drawable/camara" />
 
@@ -19,6 +20,7 @@
         android:id="@+id/imageView5"
         android:layout_width="331dp"
         android:layout_height="420dp"
+        android:contentDescription="video"
         android:onClick="TomarFoto"
         app:srcCompat="@drawable/camera" />
 </LinearLayout>
