@@ -2,4 +2,6 @@
     <string name="app_name">INV App</string>
     <string name="video">video</string>
     <string name="camera">Camera</string>
+    <string name="tomar_fotografia">fotografia</string>
+    <string name="grabar_video">"grabar "</string>
 </resources>

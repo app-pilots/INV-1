@@ -15,8 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".Video" />
-        <activity android:name=".Camara" />
+        <activity android:name=".Video" android:label="Video" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Camara" android:label="Camara" android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
